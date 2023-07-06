@@ -1,0 +1,14 @@
+{
+  "version": "2.4",
+  "release_date": "05/16/2022",
+  "min": "2.1",
+  "migrations": [
+    "Modules/Appearance/Database/Migrations/2022_04_06_095709_change_default_dashboard_border_color.php",
+    "Modules/Product/Database/Migrations/2022_04_06_151218_additional_field_to_products_table.php",
+    "database/migrations/2022_04_18_144137_add_pickup_delivery_info_to_orders_table.php",
+    "Modules/ModuleManager/Database/Migrations/2022_04_19_114438_add_goldPrice_module_to_module_manager.php",
+    "Modules/GeneralSetting/Database/Migrations/2022_04_22_123127_add_is_updated_to_carts_add_category_show_to_general_settings.php"
+  ],
+  "url": "https://spondonit.com/contact",
+  "notes": "This is a bug fixing, design improve, new feature added."
+}

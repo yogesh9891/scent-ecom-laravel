@@ -1,0 +1,22 @@
+<?php
+
+namespace Modules\Marketing\Entities;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Modules\Seller\Entities\SellerProduct;
+use Modules\Product\Entities\Brand;
+
+class CouponBrand extends Model
+{
+
+    protected $guarded = ['id'];
+    
+    public function coupon(){
+        return $this->belongsTo(Coupon::class,'coupon_id','id');
+    }
+
+    public function brand(){
+        return $this->belongsTo(Brand::class, 'brand_id', 'id');
+    }
+}
